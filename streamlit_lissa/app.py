@@ -72,7 +72,6 @@ with col1:
     st.write("Total pengguna sewaan pada hari kerja:", total_casual_users)
 
 with col2: 
-    dataset_day = pd.read_csv("day.csv")
     # Membuat mapping untuk musim
     season_mapping = {1: 'Winter', 2: 'Winter', 3: 'Spring', 4: 'Spring', 5: 'Spring', 6: 'Summer',
                     7: 'Summer', 8: 'Summer', 9: 'Fall', 10: 'Fall', 11: 'Fall', 12: 'Winter'}
@@ -84,7 +83,6 @@ with col2:
     # Menentukan musim dengan jumlah sepeda yang paling banyak disewa
     most_rented_season = average_bikes_rented_per_season.idxmax()
     total_rented_bikes_in_most_rented_season = average_bikes_rented_per_season.max()
-
 
     # Membuat plot menggunakan Matplotlib
     fig, ax = plt.subplots(figsize=(10, 6))
