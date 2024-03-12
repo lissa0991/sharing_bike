@@ -15,15 +15,24 @@ Aplikasi ini adalah dashboard untuk menganalisis data penyewaan sepeda. Anda dap
 
 ## Cara Menjalankan
 
-1. Pastikan Anda telah menginstal Python dan semua paket yang diperlukan. Anda dapat menginstalnya dengan menjalankan perintah berikut:
+1. buat virtual enviroment dengan cara menjalankan code dibawah ini :
+   ```
+   python -m venv streamlit
+   ```
+
+2. Aktifkan environment yang dibuat tadi dengan menjalankan code dibawah ini :
+   ```
+   streamlit\Scripts\activate
+   ```
+3. Pastikan Anda telah menginstal Python dan semua paket yang diperlukan. Anda dapat menginstalnya dengan menjalankan perintah berikut:
    ```
    pip install -r requirements.txt
    ```
-2. Jalankan aplikasi dengan perintah:
+4.  Jalankan aplikasi dengan perintah:
    ```
    streamlit run app.py
    ```
-3. Aplikasi akan terbuka di browser Anda dan Anda dapat mulai menggunakannya.
+5.  Aplikasi akan terbuka di browser Anda dan Anda dapat mulai menggunakannya.
 
 ## Requirements
 
