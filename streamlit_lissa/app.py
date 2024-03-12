@@ -10,14 +10,7 @@ import os
 
 # LOAD DATA
 
-# @st.cache
-# def load_data():
-#     # Mendapatkan direktori tempat skrip Python berjalan
-#     current_directory = os.getcwd()
-#     # Menggabungkan direktori saat ini dengan nama file
-#     relative_path = os.path.join(current_directory, "C:\\Users\\User\\Documents\\bangkit\\submission\\day.xlsx")
-#     data = pd.read_excel(relative_path)
-#     return data
+
 
 # # Memanggil fungsi untuk memuat data
 # data = load_data()
