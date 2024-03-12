@@ -30,7 +30,7 @@ col1, col2 = st.columns(2)
 
 with col1:
     # Baca dataset
-    dataset_day = pd.read_csv("day.csv")
+    dataset_day = pd.read_csv("streamlit_lissa/day.csv")
 
     # Plot scatter plot untuk hubungan antara suhu (temp) dan jumlah pengguna terdaftar (registered)
     fig, ax = plt.subplots(figsize=(8, 6))  # Reduce the figure size
